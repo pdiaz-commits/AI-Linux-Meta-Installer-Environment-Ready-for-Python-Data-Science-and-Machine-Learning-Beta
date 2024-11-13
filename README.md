@@ -1,6 +1,14 @@
 # AI Linux Meta-Installer Environment: Ready for Python, Data Science, and Machine Learning
 
-The **AI Linux Meta-Installer** is a setup script designed for quickly configuring a basic environment for AI, data science, and machine learning projects on Ubuntu. This script installs Python, essential libraries, and frameworks, with an optional setup for Git and GitHub Desktop to manage version control and repositories.
+The **AI Linux Meta-Installer** is a setup script designed to streamline the installation of a basic environment for AI, data science, and machine learning on Ubuntu. By quickly setting up essential libraries and tools, this project aims to make AI development accessible to everyone, whether for educational, institutional, or professional purposes.
+
+## Purpose
+
+This project is ideal for anyone looking to save time and effort when setting up a ready-to-use environment for AI development. It is specifically designed to support:
+
+- **Educational Institutions**: Colleges, universities, and schools can use this setup to introduce students to data science and machine learning.
+- **Self-Learners**: Individuals exploring AI concepts will benefit from an easy setup that minimizes technical overhead.
+- **Companies and Organizations**: Businesses aiming to adopt AI solutions can use this setup to onboard teams quickly, facilitating experimentation and prototyping.
 
 ## Repository URL
 
@@ -67,6 +75,7 @@ The script provides a menu with four options:
 ## Usage Example
 
 To begin working on a new project, select "Install only Python and frameworks for data science and machine learning" from the menu. After installation, start JupyterLab with:
+
 
 
 Developed by [Pablo Jesús Díaz Ruiz](https://github.com/pdiaz-commits)
