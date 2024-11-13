@@ -1,19 +1,28 @@
 #!/bin/bash
 
-# Verificar si Python 3 está instalado; instalar si es necesario
+# Instalar Python 3 y venv si no están presentes
 if ! command -v python3 &> /dev/null; then
     echo "Python 3 no está instalado. Instalando Python 3..."
     sudo apt update
-    sudo apt install -y python3 python3-venv python3-pip
+    sudo apt install -y python3
 else
     echo "Python 3 ya está instalado."
 fi
 
-echo "Creating virtual environment 'osia_ia_env'..."
-python3 -m venv osia_ia_env
+if ! dpkg -s python3-venv &> /dev/null; then
+    echo "python3-venv no está instalado. Instalando python3-venv..."
+    sudo apt install -y python3-venv
+else
+    echo "python3-venv ya está instalado."
+fi
+
+# Crear el entorno virtual en el directorio del usuario
+VENV_PATH="$HOME/.osia_ia_env"
+echo "Creating virtual environment at $VENV_PATH..."
+python3 -m venv $VENV_PATH
 
 # Activar el entorno virtual
-source osia_ia_env/bin/activate
+source $VENV_PATH/bin/activate
 
 echo "Installing necessary packages for AI and data science..."
 
@@ -57,4 +66,4 @@ fi
 # Desactivar el entorno virtual
 deactivate
 
-echo "Setup complete. Virtual environment 'osia_ia_env' is ready with the required packages."
+echo "Setup complete. Virtual environment is ready at $VENV_PATH with the required packages."

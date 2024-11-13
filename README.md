@@ -69,39 +69,36 @@ This project is ideal for anyone looking to save time and effort when setting up
 
 ### Activating the Virtual Environment
 
-To activate the virtual environment `osia_ia_env`:
+The virtual environment `osia_ia_env` is created in the user's home directory to avoid cluttering the Git project folder. To activate it, use the following command:
 
 ```bash
-source osia_ia_env/bin/activate
-```
+source ~/.osia_ia_env/bin/activate
 
-When the environment is activated, you will see `(osia_ia_env)` at the beginning of the terminal prompt, indicating that you are working within the environment.
 
-### Deactivating the Virtual Environment
+### 
+
+When the environment is activated, you will see (osia_ia_env) at the beginning of the terminal prompt, indicating that you are working within the environment.
+Deactivating the Virtual Environment
 
 When you're done working, you can deactivate the environment by running:
 
-```bash
 deactivate
-```
 
-## Benefits of the `osia_ia_env` Virtual Environment
+Benefits of the osia_ia_env Virtual Environment
 
 This environment is specifically configured for data science and machine learning, which allows you to:
 
-- Perform data analysis efficiently and reproducibly.
-- Develop and train machine learning and deep learning models.
-- Create interactive visualizations and exploratory data analysis.
-- Run and share projects in JupyterLab for interactive analysis.
+    Perform data analysis efficiently and reproducibly.
+    Develop and train machine learning and deep learning models.
+    Create interactive visualizations and exploratory data analysis.
+    Run and share projects in JupyterLab for interactive analysis.
 
 This setup provides a strong foundation for advanced AI projects, from data exploration to predictive model development.
+Troubleshooting
 
-## Troubleshooting
-
-If you encounter any issues or if a library does not install correctly, make sure `pip` is updated, and rerun the script. You can also check the logs to identify any specific errors during the installation of particular libraries.
-
-## License
+If you encounter any issues or if a library does not install correctly, make sure pip is updated, and rerun the script. You can also check the logs to identify any specific errors during the installation of particular libraries.
+License
 
 This project is licensed under the terms of the MIT license.
 
-Developed by [Pablo Jesús Díaz Ruiz](https://github.com/pdiaz-commits)
+Developed by Pablo Jesús Díaz Ruiz
