@@ -1,5 +1,7 @@
 # AI Linux Meta-Installer Environment: Ready for Python, Data Science, and Machine Learning
 
+![AI Meta-Installer](https://github.com/tu-usuario/tu-repositorio/blob/main/images/imagen.png)
+
 The **AI Linux Meta-Installer** is a setup script designed to streamline the installation of a basic environment for AI, data science, and machine learning on Ubuntu. By quickly setting up essential libraries and tools, this project aims to make AI development accessible to everyone, whether for educational, institutional, or professional purposes.
 
 ## Purpose
