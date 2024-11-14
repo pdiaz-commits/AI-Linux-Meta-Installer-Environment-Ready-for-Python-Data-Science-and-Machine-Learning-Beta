@@ -101,4 +101,4 @@ License
 
 This project is licensed under the terms of the MIT license.
 
-Developed by Pablo Jesús Díaz Ruiz
+Developed by Pablo Díaz 
