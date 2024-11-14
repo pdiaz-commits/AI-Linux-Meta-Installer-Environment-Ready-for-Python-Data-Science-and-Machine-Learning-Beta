@@ -1,4 +1,4 @@
-# AI Linux Meta-Installer Environment: Ready for Python, Data Science, and Machine Learning
+# (Beta) AI Linux Meta-Installer Environment: Ready for Python, Data Science, and Machine Learning
 
 ![AI Meta-Installer](https://github.com/pdiaz-commits/AI-Linux-Meta-Installer-Environment-Ready-for-Python-Data-Science-and-Machine-Learning/blob/main/images/imagen.png)
 
