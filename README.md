@@ -44,20 +44,11 @@ This project is ideal for anyone looking to save time and effort when setting up
     chmod +x install_osia.sh
     ```
 
-3. Run the script and follow the instructions in the menu:
+3. Run the script and follow the instructions:
 
     ```bash
     ./install_osia.sh
     ```
-
-## Options Menu
-
-The script provides a menu with four options:
-
-1. **Check your system before installation**: Verifies if Python 3, pip, and Git are already installed.
-2. **Install only Python and frameworks for data science and machine learning**: Sets up Python 3, pip, and essential data science and machine learning libraries.
-3. **Install Git and GitHub Desktop**: Installs Git and GitHub Desktop for version control.
-4. **Verify the installation**: Checks if all required libraries and tools are installed correctly.
 
 ## Components Installed
 
@@ -74,14 +65,40 @@ The script provides a menu with four options:
 - **Git**: Distributed version control system
 - **GitHub CLI and GitHub Desktop**: Integration with GitHub for repository management
 
-## Usage Example
+## Usage of the Virtual Environment
 
-To begin working on a new project, select "Install only Python and frameworks for data science and machine learning" from the menu. After installation, start JupyterLab with:
+### Activating the Virtual Environment
 
-
-
-Developed by [Pablo Jesús Díaz Ruiz](https://github.com/pdiaz-commits)
-
+The virtual environment `osia_ia_env` is created in the user's home directory to avoid cluttering the Git project folder. To activate it, use the following command:
 
 ```bash
-jupyter lab
+source ~/.osia_ia_env/bin/activate
+
+
+### 
+
+When the environment is activated, you will see (osia_ia_env) at the beginning of the terminal prompt, indicating that you are working within the environment.
+Deactivating the Virtual Environment
+
+When you're done working, you can deactivate the environment by running:
+
+deactivate
+
+Benefits of the osia_ia_env Virtual Environment
+
+This environment is specifically configured for data science and machine learning, which allows you to:
+
+    Perform data analysis efficiently and reproducibly.
+    Develop and train machine learning and deep learning models.
+    Create interactive visualizations and exploratory data analysis.
+    Run and share projects in JupyterLab for interactive analysis.
+
+This setup provides a strong foundation for advanced AI projects, from data exploration to predictive model development.
+Troubleshooting
+
+If you encounter any issues or if a library does not install correctly, make sure pip is updated, and rerun the script. You can also check the logs to identify any specific errors during the installation of particular libraries.
+License
+
+This project is licensed under the terms of the MIT license.
+
+Developed by Pablo Díaz 
